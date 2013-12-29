@@ -1,0 +1,9 @@
+package net.cartelcraft.utils;
+
+public class CartelAPI {
+
+	public CartelAPI() {
+		System.out.println("Cartel API Hooked Successfully");
+	}
+	
+}

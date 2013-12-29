@@ -1,0 +1,8 @@
+package net.cartelcraft.utils;
+
+public class CartelAPI {
+
+	public CartelAPI() {
+		
+	}
+}

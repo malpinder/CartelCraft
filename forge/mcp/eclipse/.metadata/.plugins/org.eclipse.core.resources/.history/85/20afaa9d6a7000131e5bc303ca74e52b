@@ -1,0 +1,33 @@
+package net.cartelcraft.utils;
+
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+
+public class RecipeComponent {
+
+	private Item item;
+	private Character c;
+	private Block block;
+	
+	public RecipeComponent(Character c, Item item) {
+		this.c = c;
+		this.item = item;
+	}
+	
+	public RecipeComponent(Character c, Block block) {
+		this.c = c;
+		this.block = block;
+	}
+
+	public Item getItem() {
+		return item;
+	}
+
+	public Character getC() {
+		return c;
+	}
+
+	public Block getBlock() {
+		return block;
+	}
+}

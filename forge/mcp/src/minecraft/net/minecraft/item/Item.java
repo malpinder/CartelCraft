@@ -1311,4 +1311,8 @@ public class Item
     {
         return this.getItemStackLimit();
     }
+    
+    public int getItemID() {
+    	return this.itemID;
+    }
 }

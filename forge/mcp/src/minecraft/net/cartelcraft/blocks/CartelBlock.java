@@ -20,7 +20,7 @@ public class CartelBlock extends Block {
 	
 	public CartelBlock(int par1, Material par2Material) {
 		super(par1, par2Material);
-		this.setCreativeTab(CreativeTabs.tabBlock);
+		this.setCreativeTab(CartelCraft.TabCartelBlock);
 	}
 	
 	@SideOnly(Side.CLIENT)

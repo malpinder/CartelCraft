@@ -546,3 +546,25 @@
 2013-12-29 03:57:28 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_side.png
 2013-12-29 03:57:29 [CLIENT] [SEVERE] Realms: Invalid session id
 2013-12-29 03:58:22 [CLIENT] [INFO] Stopping!
+2013-12-29 13:41:37 [CLIENT] [INFO] Setting user: Player31
+2013-12-29 13:41:39 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-29 13:41:39 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-29 13:41:44 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-29 13:41:45 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-29 13:41:45 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_bottom.png
+2013-12-29 13:41:45 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_top.png
+2013-12-29 13:41:45 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTestMulti.png
+2013-12-29 13:41:45 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_side.png
+2013-12-29 13:41:46 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-29 13:42:13 [CLIENT] [INFO] Stopping!
+2013-12-29 13:42:56 [CLIENT] [INFO] Setting user: Player406
+2013-12-29 13:42:57 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-29 13:42:57 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-29 13:43:00 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-29 13:43:02 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-29 13:43:02 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_bottom.png
+2013-12-29 13:43:02 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_top.png
+2013-12-29 13:43:02 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTestMulti.png
+2013-12-29 13:43:02 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_side.png
+2013-12-29 13:43:03 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-29 13:45:50 [CLIENT] [INFO] Stopping!

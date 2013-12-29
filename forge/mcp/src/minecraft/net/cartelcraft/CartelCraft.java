@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 import net.cartelcraft.blocks.BlockTest;
 import net.cartelcraft.blocks.BlockTestMulti;
+import net.cartelcraft.creativetabs.CreativeTabCartelBlock;
+import net.cartelcraft.creativetabs.CreativeTabCartelItem;
 import net.cartelcraft.items.CartelItem;
 import net.cartelcraft.items.ItemPseudoephedrine;
 import net.cartelcraft.utils.CartelAPI;
@@ -11,6 +13,7 @@ import net.cartelcraft.utils.CartelAPI.ChestType;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.RenderGlobal;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import cpw.mods.fml.client.FMLClientHandler;
@@ -35,6 +38,9 @@ public class CartelCraft {
 		public static Block blockTestMulti;
 	//Items
 		public static Item itemPseudoephedrine;
+	//Creative Tabs 
+		public static CreativeTabs TabCartelItem = new CreativeTabCartelItem(CreativeTabs.getNextID(), "Cartel Items");
+		public static CreativeTabs TabCartelBlock = new CreativeTabCartelBlock(CreativeTabs.getNextID(), "Cartel Blocks");
       
 	@EventHandler
     public void preInit(FMLPreInitializationEvent event) {

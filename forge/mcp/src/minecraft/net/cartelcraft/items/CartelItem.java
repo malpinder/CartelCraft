@@ -10,6 +10,7 @@ public class CartelItem extends Item {
 
 	public CartelItem(int par1) {
 		super(par1);
+		this.setCreativeTab(CartelCraft.TabCartelItem);
 	}
 	
 	@SideOnly(Side.CLIENT)

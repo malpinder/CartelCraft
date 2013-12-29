@@ -3475,3 +3475,18 @@ StackTrace:
 	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
 	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
 	at java.lang.Thread.run(Unknown Source)
+!SESSION 2013-12-29 13:23:06.914 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 13:23:13.479
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 13:23:13.483
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 13:23:28.658
+!MESSAGE received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0 (StunServiceImpl.java:420)

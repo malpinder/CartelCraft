@@ -7,5 +7,6 @@ public class ItemPseudoephedrine extends CartelItem {
 	public ItemPseudoephedrine(int par1) {
 		super(par1);
 		this.setCreativeTab(CreativeTabs.tabMisc);
+		this.setMaxStackSize(65);
 	}
 }

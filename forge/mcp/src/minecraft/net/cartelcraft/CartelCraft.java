@@ -4,7 +4,11 @@ import java.util.Arrays;
 
 import net.cartelcraft.items.CartelItem;
 import net.cartelcraft.items.ItemPseudoephedrine;
+import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.ModMetadata;
@@ -19,7 +23,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class CartelCraft {
 	public static final String modid = "CartelCraft";
-	
+	public static CartelCraft instance;
 	//Blocks
 		
 	//Items
@@ -39,6 +43,8 @@ public class CartelCraft {
     		itemPseudoephedrine = new ItemPseudoephedrine(500).setUnlocalizedName("pseudoephed");
     		GameRegistry.registerItem(itemPseudoephedrine, "Pseudoephedrine");
     		LanguageRegistry.addName(itemPseudoephedrine, "Pseudoephedrine");
+    		GameRegistry.addRecipe(new ItemStack(itemPseudoephedrine, 1),  new Object[] {"@@@",Character.valueOf('@'), Item.stick});
+    		GameRegistry.addSmelting(Block.bedrock.blockID, new ItemStack(this.itemPseudoephedrine, 64), 0.0f);
     	
     	//GameRegistry - Game modifications(textures, adding items and blocks)
     	//LanguageRegistry - Text related modifications

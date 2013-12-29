@@ -1,0 +1,32 @@
+package net.cartelcraft.blocks;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.cartelcraft.CartelCraft;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IconRegister;
+import net.minecraft.util.Icon;
+
+public class CartelBlock extends Block {
+
+	protected boolean multiSided;
+	protected Icon[] icons;
+	
+	public CartelBlock(int par1, Material par2Material) {
+		super(par1, par2Material);
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public void registerIcons(IconRegister par1IconRegister) {
+		if(!multiSided) {
+			this.blockIcon = par1IconRegister.registerIcon(CartelCraft.modid + ":" + (this.getUnlocalizedName().substring(5)));
+		} else {
+			icons = new Icon[4];
+			
+			for(int i = 0; i < icons.length; i++) {
+				icons[i] = par1IconRegister.registerIcon(CartelCraft.modid + ":" + (this.getUnlocalizedName().substring(5) + i));
+			}
+		}
+	}
+}

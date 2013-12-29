@@ -14,6 +14,11 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.LanguageRegistry"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.BiomeGenBase"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.RenderGlobal"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.FMLClientHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.network.NetworkMod.SidedPacketHandler"/>
 </qualifiedTypeNameHistroy>

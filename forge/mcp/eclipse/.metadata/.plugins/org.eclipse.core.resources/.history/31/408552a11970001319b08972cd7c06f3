@@ -1,0 +1,5 @@
+package net.cartelcraft.items;
+
+public class ItemTestItem {
+	
+}

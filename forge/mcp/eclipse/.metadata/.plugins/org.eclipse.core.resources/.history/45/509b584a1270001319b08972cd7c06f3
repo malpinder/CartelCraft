@@ -1,0 +1,7 @@
+package net.cartelcraft.blocks;
+
+import net.minecraft.block.Block;
+
+public class BlockTestBlock extends Block {
+
+}

@@ -1,0 +1,11 @@
+package net.cartelcraft.items;
+
+import net.minecraft.item.Item;
+
+public class ItemTestItem extends Item {
+
+	public ItemTestItem(int par1) {
+		super(par1);
+	}
+	
+}

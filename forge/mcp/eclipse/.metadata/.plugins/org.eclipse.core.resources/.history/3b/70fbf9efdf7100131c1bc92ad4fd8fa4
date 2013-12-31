@@ -1,0 +1,53 @@
+package net.cartelcraft.blocks;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.cartelcraft.CartelCraft;
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.texture.IconRegister;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.Icon;
+import net.minecraft.world.World;
+
+public class CartelBlockContainer extends BlockContainer {
+
+	protected boolean multiSided;
+	protected Icon topIcon;
+	protected Icon bottomIcon;
+	protected Icon sideIcon;
+	protected Icon normalIcon;
+	
+	public CartelBlockContainer(int par1, Material par2Material) {
+		super(par1, par2Material);
+	}
+
+	@Override
+	public TileEntity createNewTileEntity(World world) {
+		return null;
+	}
+	
+	@SideOnly(Side.CLIENT)
+	public void registerIcons(IconRegister par1IconRegister) {
+		this.normalIcon = par1IconRegister.registerIcon(CartelCraft.modid + ":" + (this.getUnlocalizedName().substring(5)));
+		this.topIcon = par1IconRegister.registerIcon(CartelCraft.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_Top");
+		this.bottomIcon = par1IconRegister.registerIcon(CartelCraft.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_Bottom");
+		this.sideIcon = par1IconRegister.registerIcon(CartelCraft.modid + ":" + (this.getUnlocalizedName().substring(5)) + "_Side");
+	}
+	
+	@Override
+	@SideOnly(Side.CLIENT)
+	public Icon getIcon(int side, int metadata) {
+		if(!multiSided) {
+			return this.normalIcon;
+		} else {
+			if(side == 0) {
+				return bottomIcon;
+			} else if(side == 1) {
+				return topIcon;
+			} else {
+				return sideIcon;
+			}
+		}
+	}
+}

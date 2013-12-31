@@ -27,7 +27,7 @@ public class OreGenerator implements IWorldGenerator {
 	}
 	
 	public void generateSurface(World world, Random random, int x, int z) {
-		this.addOreSpawn(CartelCraft.blockTestMulti, world, random, x, z, 16, 16, 50, 50, 35, 50);
+
 	}
 	
 	public void generateNether(World world, Random random, int x, int z) {

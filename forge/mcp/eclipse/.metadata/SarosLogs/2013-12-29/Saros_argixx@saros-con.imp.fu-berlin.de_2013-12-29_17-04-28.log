@@ -1,0 +1,31 @@
+INFO  2013-12-29 17:04:19,873 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.7.0_25
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.8.0.v20120912-155025
+  Operating System: Windows 8 (6.2)
+  Hardware Architecture: amd64
+INFO  2013-12-29 17:04:19,997 (XMPPAccountStore.java:103) loaded 1 accounts
+INFO  2013-12-29 17:04:20,031 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2013-12-29 17:04:20,036 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@1b2ae35d, de.fu_berlin.inf.dpp.net.internal.IBBTransport@1cb4fc9a]
+DEBUG 2013-12-29 17:04:20,132 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2013-12-29 17:04:20,216 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2013-12-29 17:04:20,430 (NullSarosSession.java:64) unexpected method call
+WARN  2013-12-29 17:04:20,436 (NullSarosSession.java:64) unexpected method call
+DEBUG 2013-12-29 17:04:22,680 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+DEBUG 2013-12-29 17:04:24,594 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2013-12-29 17:04:24,816 (DocumentRecord.java:93) Added Node: attr(138836186479955929) name=svg
+DEBUG 2013-12-29 17:04:25,152 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2013-12-29 17:04:25,319 (SarosNet.java:433) found interface addresses: [192.168.1.107, fe80:0:0:0:10ee:4719:9106:d364%13, 2001:0:9d38:6ab8:86f:3260:94fd:51e7, fe80:0:0:0:86f:3260:94fd:51e7%16]
+DEBUG 2013-12-29 17:04:25,352 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2013-12-29 17:04:28,022 (SarosNet.java:383) argixx@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2013-12-29 17:04:28,023 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@1b2ae35d, de.fu_berlin.inf.dpp.net.internal.IBBTransport@1cb4fc9a]
+DEBUG 2013-12-29 17:04:28,024 (SkypeManager.java:286) Refreshing Skype username cache...
+WARN  2013-12-29 17:04:35,574 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0
+WARN  2013-12-29 17:10:42,711 (NullSarosSession.java:64) unexpected method call
+WARN  2013-12-29 17:10:42,714 (NullSarosSession.java:64) unexpected method call
+DEBUG 2013-12-29 17:10:42,892 (SarosNet.java:383) argixx@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+DEBUG 2013-12-29 17:10:43,045 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+DEBUG 2013-12-29 17:10:43,047 (UPnPServiceImpl.java:295) deleting existing port mappings

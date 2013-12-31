@@ -3490,3 +3490,67 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 13:23:28.658
 !MESSAGE received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2013-12-29 14:10:18.230
+!MESSAGE XMPP connection error:  (SarosNet.java:95)
+!STACK 0
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:251)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 4 0 2013-12-29 14:10:18.233
+!MESSAGE  new connection state == ERROR (SarosNet.java:385)
+!STACK 0
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:251)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 16:21:00.588
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 16:21:00.660
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2013-12-29 17:04:12.428 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 17:04:20.433
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 17:04:20.437
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 17:04:35.575
+!MESSAGE received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 17:10:42.712
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-29 17:10:42.715
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+!SESSION 2013-12-30 22:22:02.707 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-30 22:22:26.943
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-30 22:22:27.090
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-30 22:22:44.518
+!MESSAGE received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0 (StunServiceImpl.java:420)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-30 22:57:15.263
+!MESSAGE unexpected method call (NullSarosSession.java:64)
+
+!ENTRY de.fu_berlin.inf.dpp 2 0 2013-12-30 22:57:15.402
+!MESSAGE unexpected method call (NullSarosSession.java:64)

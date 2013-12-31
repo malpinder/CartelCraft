@@ -1,3 +1,15 @@
 WARN  2013-12-29 13:23:13,476 (NullSarosSession.java:64) unexpected method call
 WARN  2013-12-29 13:23:13,482 (NullSarosSession.java:64) unexpected method call
 WARN  2013-12-29 13:23:28,657 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0
+ERROR 2013-12-29 14:10:18,228 (SarosNet.java:95) XMPP connection error: 
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:251)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2013-12-29 14:10:18,233 (SarosNet.java:385)  new connection state == ERROR
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:251)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+WARN  2013-12-29 16:21:00,587 (NullSarosSession.java:64) unexpected method call
+WARN  2013-12-29 16:21:00,659 (NullSarosSession.java:64) unexpected method call

@@ -13,7 +13,7 @@ public class CreativeTabCartelBlock extends CreativeTabs {
 
 	@SideOnly(Side.CLIENT) 
 	public int getTabIconItemIndex() {
-		return CartelCraft.blockTestMulti.blockID;
+		return CartelCraft.blockCentrifuge.blockID;
 	}
 	
 	public String getTranslatedTabLabel() {

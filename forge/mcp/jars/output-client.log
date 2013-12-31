@@ -568,3 +568,77 @@
 2013-12-29 13:43:02 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_side.png
 2013-12-29 13:43:03 [CLIENT] [SEVERE] Realms: Invalid session id
 2013-12-29 13:45:50 [CLIENT] [INFO] Stopping!
+2013-12-29 15:08:41 [CLIENT] [INFO] Setting user: Player319
+2013-12-29 15:08:41 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-29 15:08:42 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-29 15:08:44 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-29 15:08:46 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-29 15:08:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_bottom.png
+2013-12-29 15:08:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_top.png
+2013-12-29 15:08:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTestMulti.png
+2013-12-29 15:08:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/blockTest_side.png
+2013-12-29 15:08:47 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-29 15:09:32 [CLIENT] [INFO] Stopping!
+2013-12-30 22:30:15 [CLIENT] [INFO] Setting user: Player141
+2013-12-30 22:30:16 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-30 22:30:17 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-30 22:30:20 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:30:22 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:30:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/items/pseudoephedrine.png
+2013-12-30 22:30:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/press.png
+2013-12-30 22:30:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/centrifuge.png
+2013-12-30 22:30:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/grinder.png
+2013-12-30 22:30:23 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-30 22:30:31 [CLIENT] [INFO] Stopping!
+2013-12-30 22:30:40 [CLIENT] [INFO] Setting user: Player490
+2013-12-30 22:30:41 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-30 22:30:41 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-30 22:30:45 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:30:46 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:30:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/items/pseudoephedrine.png
+2013-12-30 22:30:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/press.png
+2013-12-30 22:30:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/centrifuge.png
+2013-12-30 22:30:46 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/grinder.png
+2013-12-30 22:30:47 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-30 22:31:52 [CLIENT] [INFO] Stopping!
+2013-12-30 22:33:23 [CLIENT] [INFO] Setting user: Player620
+2013-12-30 22:33:24 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-30 22:33:24 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-30 22:33:28 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:33:29 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:33:29 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/items/pseudoephedrine.png
+2013-12-30 22:33:29 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/press.png
+2013-12-30 22:33:29 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/centrifuge.png
+2013-12-30 22:33:29 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/grinder.png
+2013-12-30 22:33:30 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-30 22:34:22 [CLIENT] [INFO] Stopping!
+2013-12-30 22:34:26 [CLIENT] [INFO] Setting user: Player504
+2013-12-30 22:34:27 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-30 22:34:28 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-30 22:34:31 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:34:32 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:34:32 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/press.png
+2013-12-30 22:34:32 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/centrifuge.png
+2013-12-30 22:34:32 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/grinder.png
+2013-12-30 22:34:33 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-30 22:40:12 [CLIENT] [INFO] Stopping!
+2013-12-30 22:53:17 [CLIENT] [INFO] Setting user: Player496
+2013-12-30 22:53:18 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-30 22:53:18 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-30 22:53:21 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:53:22 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:53:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/press.png
+2013-12-30 22:53:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/centrifuge.png
+2013-12-30 22:53:22 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/grinder.png
+2013-12-30 22:53:24 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-30 22:53:44 [CLIENT] [INFO] Stopping!
+2013-12-30 22:54:00 [CLIENT] [INFO] Setting user: Player427
+2013-12-30 22:54:00 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2013-12-30 22:54:01 [CLIENT] [INFO] Reloading ResourceManager: Default
+2013-12-30 22:54:04 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:54:05 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Cartel Craft
+2013-12-30 22:54:05 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/press.png
+2013-12-30 22:54:05 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/centrifuge.png
+2013-12-30 22:54:05 [CLIENT] [SEVERE] Using missing texture, unable to load: cartelcraft:textures/blocks/grinder.png
+2013-12-30 22:54:06 [CLIENT] [SEVERE] Realms: Invalid session id
+2013-12-30 22:56:22 [CLIENT] [INFO] Stopping!

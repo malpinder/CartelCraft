@@ -2,21 +2,19 @@ package net.cartelcraft;
 
 import java.util.Arrays;
 
-import net.cartelcraft.blocks.BlockTest;
-import net.cartelcraft.blocks.BlockTestMulti;
+import net.cartelcraft.blocks.BlockCentrifuge;
+import net.cartelcraft.blocks.BlockGrinder;
+import net.cartelcraft.blocks.BlockPress;
 import net.cartelcraft.creativetabs.CreativeTabCartelBlock;
 import net.cartelcraft.creativetabs.CreativeTabCartelItem;
-import net.cartelcraft.items.CartelItem;
 import net.cartelcraft.items.ItemPseudoephedrine;
 import net.cartelcraft.utils.CartelAPI;
 import net.cartelcraft.utils.CartelAPI.ChestType;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.ModMetadata;
@@ -24,7 +22,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
 
 @Mod(modid = CartelCraft.modid, name = "Cartel Craft", version = "1.0")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
@@ -34,8 +31,9 @@ public class CartelCraft {
 	public static CartelCraft instance;
 	public static CartelAPI cartel;
 	//Blocks
-		public static Block blockTest;
-		public static Block blockTestMulti;
+		public static Block blockCentrifuge;
+		public static Block blockGrinder;
+		public static Block blockPress;
 	//Items
 		public static Item itemPseudoephedrine;
 	//Creative Tabs 
@@ -52,10 +50,12 @@ public class CartelCraft {
     @EventHandler
     public void load(FMLInitializationEvent event) {
     	//Blocks
-	    	blockTest = new BlockTest(650, Material.rock);
-	    	cartel.addBlock(blockTest, "Block Test");
-	    	blockTestMulti = new BlockTestMulti(651, Material.rock);
-	    	cartel.addBlock(blockTestMulti, "Block Test Multi");
+	    	blockCentrifuge = new BlockCentrifuge(500, Material.rock);
+	    	cartel.addBlock(blockCentrifuge, "Centrifuge");
+	    	blockGrinder = new BlockGrinder(501, Material.rock);
+	    	cartel.addBlock(blockGrinder, "Grinder");
+	    	blockPress = new BlockPress(502, Material.rock);
+	    	cartel.addBlock(blockPress, "Press");
     	//Item
     		itemPseudoephedrine = new ItemPseudoephedrine(500);
     		cartel.addItem(itemPseudoephedrine, "Pseudoephedrine");

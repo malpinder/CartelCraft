@@ -24,3 +24,17 @@ DEBUG 2013-12-29 13:23:21,937 (SarosNet.java:383) argixx@saros-con.imp.fu-berlin
 DEBUG 2013-12-29 13:23:21,938 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@1d3e2419, de.fu_berlin.inf.dpp.net.internal.IBBTransport@5ab3f44e]
 DEBUG 2013-12-29 13:23:21,939 (SkypeManager.java:286) Refreshing Skype username cache...
 WARN  2013-12-29 13:23:28,657 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/132.177.123.6:3478 at local address /192.168.1.107:0
+ERROR 2013-12-29 14:10:18,228 (SarosNet.java:95) XMPP connection error: 
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:251)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+ERROR 2013-12-29 14:10:18,233 (SarosNet.java:385)  new connection state == ERROR
+stream:error (conflict) text: Replaced by new connection
+	at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:251)
+	at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:46)
+	at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:72)
+DEBUG 2013-12-29 14:10:18,237 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+WARN  2013-12-29 16:21:00,587 (NullSarosSession.java:64) unexpected method call
+WARN  2013-12-29 16:21:00,659 (NullSarosSession.java:64) unexpected method call
+DEBUG 2013-12-29 16:21:01,471 (UPnPServiceImpl.java:295) deleting existing port mappings

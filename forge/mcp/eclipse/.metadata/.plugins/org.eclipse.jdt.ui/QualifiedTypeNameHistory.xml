@@ -4,8 +4,6 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
 <fullyQualifiedTypeName name="net.cartelcraft.blocks.BlockTestBlock"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
-<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IconRegister"/>
 <fullyQualifiedTypeName name="net.cartelcraft.items.ItemTestItem"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
@@ -20,17 +18,22 @@
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.cartelcraft.blocks.BlockTest"/>
 <fullyQualifiedTypeName name="net.cartelcraft.blocks.BlockTestMulti"/>
-<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="net.cartelcraft.utils.RecipeComponent"/>
 <fullyQualifiedTypeName name="net.cartelcraft.utils.CartelAPI"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.IWorldGenerator"/>
 <fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
-<fullyQualifiedTypeName name="net.cartelcraft.CartelCraft"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraftforge.common.ChestGenHooks"/>
 <fullyQualifiedTypeName name="net.minecraft.util.WeightedRandomChestContent"/>
 <fullyQualifiedTypeName name="net.cartelcraft.utils.CartelAPI.ChestType"/>
-<fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
 <fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.cartelcraft.creativetabs.CreativeTabCartelItem"/>
+<fullyQualifiedTypeName name="net.cartelcraft.creativetabs.CreativeTabCartelBlock"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
+<fullyQualifiedTypeName name="net.cartelcraft.CartelCraft"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockContainer"/>
 </qualifiedTypeNameHistroy>

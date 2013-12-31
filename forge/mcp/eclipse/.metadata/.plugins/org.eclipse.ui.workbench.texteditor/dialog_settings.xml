@@ -13,16 +13,16 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="displayGUI" key="selection"/>
 		<list key="findhistory">
+			<item value="displayGUI"/>
+			<item value="display"/>
+			<item value="open"/>
+			<item value="openGui"/>
+			<item value="night"/>
 			<item value="dungeon"/>
 			<item value="addDungeon"/>
 			<item value="end"/>
-			<item value="endStone"/>
-			<item value="addRecipe"/>
-			<item value="itemId"/>
-			<item value="id"/>
-			<item value="health"/>
 		</list>
 		<list key="replacehistory">
 		</list>

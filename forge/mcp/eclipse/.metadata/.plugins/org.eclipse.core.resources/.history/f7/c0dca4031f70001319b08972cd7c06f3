@@ -2,9 +2,9 @@ package net.cartelcraft.biomes;
 
 import net.minecraft.world.biome.BiomeGenBase;
 
-public class BiomeNiggerBiome extends BiomeGenBase {
+public class BiomeInnerCityBiome extends BiomeGenBase {
 
-	public BiomeNiggerBiome(int par1) {
+	public BiomeInnerCityBiome(int par1) {
 		super(par1);
 		this.spawnableCreatureList.clear();
 	}
